@@ -22,7 +22,8 @@
   },
   "formation": {
        "worker": {
-       "quantity": 1
+       "quantity": 1,
+       "size": standard-2x
     }
   },
   "stack": "container"
