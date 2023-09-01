@@ -1,7 +1,3 @@
 build:
   docker:
     worker: Dockerfile
-run:
- worker: Dockerfile
- command: start accept --token cnvvCaUBfOM2BrDvZqet
-uvgfyzYt08ZJ82UEaKphTPg=
