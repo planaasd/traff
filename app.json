@@ -10,7 +10,6 @@
     "cloud-development",
     "heroku-api"
   ],
-  "stack": "container",
   "env": {
     "GIT_REPO": {
       "description": "URL of a git repo to clone (optional)",
@@ -22,9 +21,10 @@
     }
   },
   "formation": {
-          "worker": {
-              "quantity": 1,
-              "size": "free"
-          }
-      }
+       "worker": {
+       "quantity": 1,
+       "size": "free"
+    }
+  },
+  "stack": "container"
 }
