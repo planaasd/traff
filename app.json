@@ -19,11 +19,5 @@
       "description": "Create a password to log in to code-server with",
       "required": true
     }
-  },
-  "formation": {
-       "worker": {
-       "quantity": 1,
-       "size": "standard-1x"
-    }
   }
 }
