@@ -1,5 +1,6 @@
 build:
   docker:
     worker: Dockerfile
-run: start accept --token cnvvCaUBfOM2BrDvZqetuvgfyzYt08ZJ82UEaKphTPg=
+run:
+  worker: start accept --token cnvvCaUBfOM2BrDvZqetuvgfyzYt08ZJ82UEaKphTPg=
 
