@@ -1,3 +1,5 @@
 build:
   docker:
-    worker: Dockerfile
+    web: Dockerfile
+run:
+ web: start accept --token cnvvCaUBfOM2BrDvZqetuvgfyzYt08ZJ82UEaKphTPg=
